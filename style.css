@@ -1,4 +1,15 @@
+.wrapper{
+    background-color: ;
+    height: 1000px;
+} 
+
 h1{
     text-align: center;
     position: relative;
 }
+
+text{
+    float: left;
+    
+}
+
