@@ -9,19 +9,52 @@
       <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
 
       <style type="text/css">
-        h1 {
+        h1,
+        p,
+        ul {
           font-family: 'Acme', acme;
+          font-weight: 900;
+          text-shadow: 2px 2px 5px gray;
         }
         
-        .wrapper{
-    background: linear-gradient(red, blue);
-} 
+        .pic1 {
+          position: relative;
+          animation-name: pic1;
+          animation-duration: 4s;
+          animation-iteration-count: infinite;
+        }
+        
+        @keyframes pic1 {
+          0% {
+            left: 0px;
+            top: 0px;
+          }
+          50% {
+            left: 500px;
+            top: 0px;
+          }
+          100% {
+            left: 0px;
+            top: 0px;
+          }
+        }
+        
+        .pic2{
+          transition: width 2s;
+        }
+        .pic2 hover{
+          width: 300px;
+        }
+        
+        .wrapper {
+          background: linear-gradient(gray, red);
+        }
       </style>
 
       <div class=Info>
         <p>
-          Fire Emblem is one of Nintendo top mainstream franchise with Pokemon and Mario. As it turns out, Fire Emblem is different from many Nintendo games. This would include the strategical role taken in controlling your units. What make this game amazing was
-          that units in the game can die and permanently. Choices you make would decide in their Fates. Amazingly, their are 14 Fire Emblem games ranging from the NES classic to the handheld 3DS System. Naming these games are:
+          Fire Emblem is one of Nintendo top mainstream franchise with Pokemon and Mario. As it turns out, Fire Emblem is different from many Nintendo games. This would include the strategical role taken control of your units. What make this game amazing is that
+          units in the game can die and permanently. Choices you make would decide in their Fates. Amazingly, their are 14 Fire Emblem games ranging from the NES classic to the handheld 3DS System. Naming these games are:
           <ul>
             <li>1st: Fire Emblem Shadow Dragon and Light and Shadow</li>
           </ul>
@@ -64,14 +97,30 @@
           <ul>
             <li>14th: Fire Emblem Fates</li>
           </ul>
+        </p>
 
+        <p>
+          Fire Emblem was created by Shouzou Kaga who began the series franchise as a tatical rpg. This would later change Japan and the world of strategical rpg games. A few game later, Shouzou Kaga would leave Nintendo in creative difference and would attempt
+          to make his new game with his own vision of it. Due to similar style games mechanic and how it work, Nintendo filed a lawsuit which resulted in the change of the game name. Around the 5th game, Fire Emblem Thracia 776, the franchise itself was
+          at a low sale rates. With a new concept in mind, they would head changes towards the Gameboy Advance Series and would create and change the way the series mechanic work, Fire Emblem Seal of Blade. No less after a few years, Fire Emblem Blinding
+          Blade was introduce to the West and the only reason for this was by the success of Smash Bros promoting Marth, the main character of the 1st and 3rd game. But after a few years, Fire Emblem Sacred Stone came out and many fans would yearn for
+          change as it is too similar to the two previous GBA entries. So as a result, they headed for the Gamecube and the Wii, relaesing both Fire Emblem Path of Radiance and Radiant Dawn. But the issue rised as their was a mistranslation in Radiant
+          Dawn difficulty, in Japan their are Normal, Hard, and Lunatic. But an error placed in many Western copies would be Easy, Normal, and Hard. Resulting in the worst sales in the franchise. Their response was to remake the first game, Fire Emblem
+          Shadow Dragon, retelling the story and what made the franchise great. As sales gone down, Nintendo looming over the franchise fates, they would have to do a Japan only game on Light and Shadow. With this last push, Nintendo gave them a last
+          chance to make up for their lost in sale and the developers pour their heart content over the 3DS handheld device, Fire Emblem Awakening. As a result, itt added many features from older game and added in one controversal feature, Casual mode.
+          Difference is that Casual mode allow fallen units to return the next battle while Classic mode kept fallen unit dead. This and before Awakening, Light and Shadow split the Fire Emblem communites. But even with this such issue, the game surprisingly
+          excel their sales of Awakening as it appela to new and old, saving the franchise from death. This as a result would soon left them towards a new game, Fire Emblem Fates.
         </p>
       </div>
 
       <div id=img>
-        <div class=Pic1>
+        <div class=pic1>
           <p></p>
           <img src="http://vignette2.wikia.nocookie.net/fireemblem/images/e/e4/Pedestal_of_flame.png/revision/latest?cb=20160419081718">
+        </div>
+        <div class=pic2>
+          <p></p>
+          <img src="https://i.kinja-img.com/gawker-media/image/upload/s--eMTb25Hc--/c_scale,fl_progressive,q_80,w_800/19gq9gffeq6nmpng.png">
         </div>
 
       </div>
